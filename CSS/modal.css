@@ -1,0 +1,62 @@
+.modal {
+    background-color: rgba(0, 0, 0, .70);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    top:0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.2s ease-in-out;
+    display: none;
+}
+
+.modalCard {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 7px;
+    padding: 10px 20px 30px;
+    position: relative;
+}
+
+.modalCard .box {
+    background-color: #f5f5f5;
+    height: 20px;
+    margin: 0 5%;
+    padding: 10px 20px;
+    border: solid 1px black;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.modalCard .close {
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: 100;
+    margin: 0;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.modalCard .close:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+
+}
+    
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+
+</head>
+<body>
+    <h1>Loan Calculator</h1>
+    <form id="loanForm">
+        <label for="loanAmount" class="">Loan Amount</label>
+        <input type="text" id="loanAmount" placeholder="e.g. 9000" pattern="[0-9]+" name="loanAmount" required> <br>
+
+        <label for="interestRate", class="">Interest Rate (%)</label>
+        <input placeholder="e.g. 10" pattern="[0-9]+" type="text" id="interestRate", name="interestRate", required> <br>
+
+        <label for="loanTerm" class="">Loan Term (years)</label>
+        <input type="text" placeholder="e.g. 2" pattern="[0-9]+" id="loanTerm" name="loanTerm" required> <br>
+
+        <button type="submit" id="calculateButton">Calculate</button>
+    </form>
+
+    <div class="modal" id="modal">
+        <div class="modalCard" id="result">
+            <h4 class="close" id="close">X</h1>
+            <h1>Result</h1>
+            <div class="box" id="resultBox"></div>
+        </div>
+    </div>
+
+    <script src="loan_calculator.js"></script>
+</body>
+</html>
