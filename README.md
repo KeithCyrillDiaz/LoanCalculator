@@ -3,7 +3,7 @@
 This repository contains the code for **Activity** in the MERN UPSkill program conducted by DICT. The project demonstrates a basic loan calculator web page.
 
 ### Deployed URL
-You can view the live version here: [Modern Business Page](https://keithcyrilldiaz.github.io/ModernPageBusiness/)
+You can view the live version here: [Loan Calculator](https://keithcyrilldiaz.github.io/LoanCalculator/)
 
 ---
 
